@@ -1,0 +1,326 @@
+.navbar {
+  height: 70px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.hero {
+  min-height: 500px;
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-tag {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  max-width: 650px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.search-box {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 15px 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-box button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.categories {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categories span {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.services {
+  padding: 80px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  margin-bottom: 35px;
+}
+
+.section-heading p {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.section-heading h2 {
+  font-size: 32px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.service-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 24px;
+  background: white;
+}
+
+.service-category {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.service-price {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.service-rating {
+  margin-bottom: 20px;
+}
+
+.service-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-footer span {
+  font-size: 14px;
+  color: #666;
+}
+
+.service-footer button {
+  border: none;
+  padding: 9px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.details-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 60px;
+}
+
+.details-category {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.details-main h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.details-description {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.details-student {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.details-main hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+.details-main h2 {
+  margin-bottom: 15px;
+}
+
+.details-main > p:last-child {
+  color: #666;
+  line-height: 1.7;
+}
+
+.details-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px;
+  height: fit-content;
+}
+
+.details-card h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.details-card > p:first-of-type {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.hire-button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.delivery {
+  margin-top: 12px;
+  color: #555;
+}
+
+.post-project {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.post-project h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.post-project > p {
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.post-project form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-project label {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.post-project input,
+.post-project textarea {
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.post-project textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.post-project button {
+  margin-top: 25px;
+  padding: 14px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.posted-projects {
+  margin-top: 60px;
+}
+
+.posted-projects h2 {
+  margin-bottom: 20px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-top: 8px;
+  color: #555;
+}
